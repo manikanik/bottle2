@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <link rel="stylesheet" href="k1.css">
+</head>
+<body>
+  <h1>INPUT:</h1>
+  <div class="d">
+      <input type="number" class="i" id="xx" value="5" required>
+      <input type="text" class="i" id="yy" value="x" required maxlength="1">
+      <select class="i" id="zz">
+        <option class="oa" value="+">+</option>
+        <option class="oa" value="-">-</option>
+      </select>
+      <button type="submit" onclick="preview()" class="b" id="btnm">Preview</button>
+      <button type="submit" class="b" id="btnp">\(x+\frac{1}{x}=5 \)</button>
+      <button type="submit" onclick="ok()" class="b" id="btnx">submit</button>
+  </div>
+  <h1>OUTPUT TYPE:</h1>
+  <div class="d">
+    <button type="submit" onclick="xxa()" class="b" id="btna">\(x-\frac{1}{x}=? \)</button>
+    <button type="submit" onclick="xxxa()" class="b" id="btn1">\(x^2+\frac{1}{x^2}=? \)</button>
+    <button type="submit" onclick="xxxb()" class="b" id="btn2">\(x^3+\frac{1}{x^3}=? \)</button>
+    <button type="submit" onclick="xxxc()" class="b" id="btn3">\(x^4+\frac{1}{x^4}=? \)</button>
+    <button type="submit" onclick="xxxd()" class="b" id="btn4">\(x^5+\frac{1}{x^5}=? \)</button>
+    <button type="submit" onclick="xxxe()" class="b" id="btn5">\(x^6+\frac{1}{x^6}=? \)</button>
+
+    <button type="submit" onclick="yyya()" class="b" id="btn6">\(x^2-\frac{1}{x^2}=? \)</button>
+    <button type="submit" onclick="yyyb()" class="b" id="btn7">\(x^3-\frac{1}{x^3}=? \)</button>
+    <button type="submit" onclick="yyyc()" class="b" id="btn8">\(x^4-\frac{1}{x^4}=? \)</button>
+    <button type="submit" onclick="yyyd()" class="b" id="btn9">\(x^5-\frac{1}{x^5}=? \)</button>
+    <button type="submit" onclick="yyye()" class="b" id="btn10">\(x^6-\frac{1}{x^6}=? \)</button>
+  </div>
+  
+  <p class="a" id="pa"></p>
+  <p class="a" id="pb"></p>
+  <p class="a" id="pc"></p>
+  <p class="a" id="pd"></p>
+  <p class="a" id="pe"></p>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" 
+      onload="renderMathInElement(document.body, {
+        delimiters: [
+          {left: '\\[', right: '\\]', display: true},
+          {left: '\\(', right: '\\)', display: false}
+        ]
+      })"></script>
+
+  <script src="k1.js"></script>
+</body>
+</html>
