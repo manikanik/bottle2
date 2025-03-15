@@ -13,16 +13,16 @@ let d = `\\textcolor{blue}{\\hspace{5pt} \\therefore \\hspace{2pt}}`;
 let e = `\\textcolor{#a15be2}{=}`;
 let dt = `\\textcolor{green}{\\cdot }`;
 let tx1 = `\\textcolor{#076e5d}{\\text{@\\;}}`;
-let and = `\\textcolor{#8f5810}{\\text{\\;এবং\\;}}`;
-let given = `\\textcolor{#8f5810}{\\text{ দেওয়া আছে:}}`;
-let here = `\\textcolor{#8f5810}{\\text{এখানে,}}`;
-let again = `\\textcolor{#8f5810}{\\text{আবার,}}`;
-let now = `\\textcolor{#8f5810}{\\text{এখন,}}`;
-let therefore = `\\textcolor{#8f5810}{\\text{অতএব,}}`;
-let weknow =  `\\textcolor{#8f5810}{\\text{আমরা জানি,}}`;
-let sq = `\\textcolor{#8f5810}{\\text{\\hspace{1em}[বর্গ করে] }}`;
-let cu = `\\textcolor{#8f5810}{\\text{\\hspace{1em}[ঘন করে]}}`;
-let subst = `\\textcolor{#8f5810}{\\text{\\hspace{1em}[মান বসে]}}`;
+let and = `\\textcolor{green}{\\text{\\;এবং\\;}}`;
+let given = `\\textcolor{green}{\\text{ দেওয়া আছে:}}`;
+let here = `\\textcolor{green}{\\text{এখানে,}}`;
+let again = `\\textcolor{green}{\\text{আবার,}}`;
+let now = `\\textcolor{green}{\\text{এখন,}}`;
+let therefore = `\\textcolor{green}{\\text{অতএব,}}`;
+let weknow =  `\\textcolor{green}{\\text{আমরা জানি,}}`;
+let sq = `\\textcolor{green}{\\text{\\hspace{1em}[বর্গ করে] }}`;
+let cu = `\\textcolor{green}{\\text{\\hspace{1em}[ঘন করে]}}`;
+let subst = `\\textcolor{green}{\\text{\\hspace{1em}[মান বসে]}}`;
 
 function ok(){
     let u1 = yy.value;
