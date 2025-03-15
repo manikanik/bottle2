@@ -6,7 +6,7 @@ h1{
     margin: 10px;
     padding: 5px;
 
-    font-size: 25pt;
+    font-size: 2rem;
     color: #570303;
     background-color: antiquewhite;
 
@@ -40,13 +40,11 @@ h1{
     cursor: pointer;
 }
 .b:hover{
-    background-color: cyan;
+    background: linear-gradient(135deg, rgba(214, 79, 79, 0.7), rgba(102, 219, 102, 0.6));
+    
 }
 .b:active{
-    background-color: deeppink;
-}
-.b::after{
-    background-color: brown;
+    background: linear-gradient(135deg, rgb(102, 219, 102, 0.6), rgb(214, 79, 79, 0.7));
 }
 .d{
     margin: 0 10px 10px 10px;
