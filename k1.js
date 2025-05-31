@@ -1,8 +1,4 @@
 const pa = document.getElementById('pa');
-const pb = document.getElementById('pb');
-const pc = document.getElementById('pc');
-const pd = document.getElementById('pd');
-const pe = document.getElementById('pe');
 
 const xx = document.getElementById('xx');
 const yy = document.getElementById('yy');
@@ -12,7 +8,7 @@ let c = `\\textcolor{salmon}{\\implies}`;
 let d = `\\textcolor{blue}{\\hspace{5pt} \\therefore \\hspace{2pt}}`;
 let e = `\\textcolor{#a15be2}{=}`;
 let dt = `\\textcolor{green}{\\cdot }`;
-let tx1 = `\\textcolor{#076e5d}{\\text{@\\;}}`;
+let tx1 = `\\textcolor{deeppink}{\\circledast\\;}`;
 let and = `\\textcolor{green}{\\text{\\;এবং\\;}}`;
 let given = `\\textcolor{green}{\\text{ দেওয়া আছে:}}`;
 let here = `\\textcolor{green}{\\text{এখানে,}}`;
@@ -85,8 +81,8 @@ function xxa(){
                        ${opO}4${dt}${u1}${dt} ${v1} \\)<br>
                     \\(\\hspace{4em} ${e}(${a})^2${opO}4${subst} \\)<br>
                     \\(\\hspace{4em} ${e}${xx1}${opO}4 \\)<br>
-                    \\(\\hspace{4em} ${e}${xxx} \\)<br>
-                    \\(${c}${u1}${opO}${v1}${e}\\sqrt{${xxx}} \\)<br>
+                    \\(\\hspace{4em} ${e}${xxx} \\)<br><br>
+                    \\(${c}${u1}${opO}${v1}${e}\\sqrt{${xxx}} \\)<br><br>
                     \\(${d}${u1}${opO}${v1}${e}${rvzz} \\)
                     `;
 
@@ -152,7 +148,7 @@ function xxxc(){
                     \\(${c}${u1}^2+${v2}${e}${xx1}${opO}2 \\)<br><br>
                     \\(${c}${u1}^2+${v2}${e}${xxx} \\)<br><br>
                     \\(${c}\\left (${u1}^2+${v2} \\right )^2${e}(${xxx})^2${sq} \\)<br><br>
-                    \\(${c}(${u1}^2)^2+(${v2})^2+2${dt}${u1}^2${dt}${v2}${e}${zzz} \\)<br><br>
+                    \\(${c}{(${u1}^2)}^2+\\left(${v2} \\right)^2+2${dt}${u1}^2${dt}${v2}${e}${zzz} \\)<br><br>
                     \\(${c}${u1}^4+${v4}+2${e}${zzz} \\)<br><br>
                     \\(${c}${u1}^4+${v4}${e}${zzz}-2 \\)<br><br>
                     \\(${d}${u1}^4+${v4}${e}${zzz-2} \\)<br><br>
@@ -194,7 +190,7 @@ function xxxe(){
                     \\(${c}${u1}^2+${v2}${e}${xx1}${opO}2 \\)<br><br>
                     \\(${c}${u1}^2+${v2}${e}${xxx} \\)<br><br>
                     \\(${c}\\left (${u1}^2+${v2} \\right )^3${e}(${xxx})^3${cu} \\)<br><br>
-                    \\(${c}(${u1}^2)^3+(${v2})^3+3${dt}${u1}^2${dt}${v2}${dt}\\left (${u1}^2+${v2} \\right)
+                    \\(${c}{(${u1}^2)}^3+\\left(${v2} \\right)^3+3${dt}${u1}^2${dt}${v2}${dt}\\left (${u1}^2+${v2} \\right)
                        ${e}${zzz} \\)<br><br>
                     \\(${c}${u1}^6+${v6}+3${dt}${xxx}${e}${zzz}${subst} \\)<br><br>
                     \\(${c}${u1}^6+${v6}+${3*xxx}${e}${zzz} \\)<br><br>
@@ -294,7 +290,7 @@ function yyyc(){
                     \\(${d}${u1}^2-${v2}${e}${a*fac}\\sqrt{${rem}} \\)<br>
                     \\(${therefore} \\)<br>
                     \\(\\hspace{4em} ${u1}^4-${v4} \\)<br><br>
-                    \\(\\hspace{4em} ${e}(${u1}^2)^2-\\left (${v2} \\right )^2 \\)<br><br>
+                    \\(\\hspace{4em} ${e}{(${u1}^2)}^2-\\left (${v2} \\right )^2 \\)<br><br>
                     \\(\\hspace{4em} ${e}\\left (${u1}^2+${v2}\\right ) \\left (${u1}^2-${v2} \\right ) \\)<br><br>
                     \\(\\hspace{4em} ${e}${yyy}${dt}${a*fac}\\sqrt{${rem}} \\)<br><br>
                     \\(${d}${u1}^4-${v4}${e}${yyy*a*fac}\\sqrt{${rem}} \\)
@@ -362,7 +358,7 @@ function yyye(){
                     \\(${d}${u1}${opO}${v1}${e}${res} \\)<br>
 
                     \\(${again} \\)<br>
-                    \\(${u1}${opO}${v1}${e}${res} \\)<br><br>
+                    \\(\\hspace{4em}${u1}${opO}${v1}${e}${res} \\)<br><br>
                     \\(${c} \\left (${u1}${opO}${v1} \\right )^3${e}
                        \\left (${res} \\right )^3${cu} \\)<br><br>
                     \\(${c}(${u1})^3${opO}\\left (${v1} \\right )^3
@@ -376,7 +372,7 @@ function yyye(){
 
                     \\(${therefore} \\)<br>
                     \\(\\hspace{4em} ${u1}^6-${v6} \\)<br><br>
-                    \\(\\hspace{4em} ${e}(${u1}^3)^2-\\left (${v3} \\right )^2 \\)<br><br>
+                    \\(\\hspace{4em} ${e}{(${u1}^3)}^2-\\left (${v3} \\right )^2 \\)<br><br>
                     \\(\\hspace{4em} ${e}\\left (${u1}^3+${v3}\\right ) \\left (${u1}^3-${v3} \\right ) \\)<br><br>
                     \\(\\hspace{4em} ${e}${yyy}${dt}${rvzz}${subst} \\)<br><br>
                     \\(${d}${u1}^6-${v6}${e}${yyy*rvxx}\\sqrt{${rem}} \\)
@@ -498,16 +494,16 @@ function zzc(){
                        2${dt}${u1}${dt}${v1}${e}${xx1} \\)<br><br>
                     \\(${c}${u1}^2+${v2}${op}2${e}${xx1} \\)<br><br>
                     \\(${c}${u1}^2+${v2}${e}${xx1}${opO}2 \\)<br><br>
-                    \\(${c}${u1}^2+${v2}${e}${xxx} \\)<br>
+                    \\(${c}${u1}^2+${v2}${e}${xxx} \\)<br><br>
 
                     \\(${again} \\)<br>
-                    \\(${u1}${op}${v1}${e}${a} \\)<br>
+                    \\(\\hspace{4em}${u1}${op}${v1}${e}${a} \\)<br><br>
                     \\(${c} \\left (${u1}${op}${v1} \\right )^3${e}(${a})^3${cu} \\)<br><br>
                     \\(${c}(${u1})^3${op} \\left (${v1} \\right )^3${op}
                        ${yya}${dt}\\left (${u1}${op}${v1} \\right ) ${e}${yy1} \\)<br><br>
                     \\(${c}${u1}^3${op}${v3}${op}${yyb}${e}${yy1}${subst} \\)<br><br>
                     \\(${c}${u1}^3${op}${v3}${e}${yy1}${opO}${yy2} \\)<br><br>
-                    \\(${c}${u1}^3${op}${v3}${e}${yyy} \\)<br>
+                    \\(${c}${u1}^3${op}${v3}${e}${yyy} \\)<br><br>
 
                     \\(${now} \\)<br>
                     \\(\\left (${u1}^3${op}${v3} \\right ) \\left (${u1}^2+${v2} \\right )
@@ -575,7 +571,7 @@ function zzd(){
                     \\(${d}${u1}${opO}${v1}${e}${res} \\)<br>
 
                     \\(${here} \\)<br>
-                    \\(${u1}${opO}${v1}${e}${res} \\)<br>
+                    \\(\\hspace{4em}${u1}${opO}${v1}${e}${res} \\)<br><br>
                     \\(${c} \\left (${u1}${opO}${v1} \\right )^3${e} \\left (${res} \\right )^3${cu} \\)<br><br>
                     \\(${c}(${u1})^3${opO} \\left (${v1} \\right )^3${opO}3${dt}
                        ${u1}${dt}${v1}${dt}
@@ -600,7 +596,7 @@ function zzd(){
 ///////////////// cube
 
 ///////////////////////
-function finder (num) {
+function finder(num) {
     if (isNaN(num)) {
         alert('Please enter a valid number.');
         return;
@@ -632,7 +628,7 @@ function finder (num) {
     return { factor, remaining: num, result };
 }
 
-function waitForKatex() {
+function waitForKatex(){
     if (typeof renderMathInElement !== "undefined") {
         renderMathInElement(document.body, {
             delimiters: [
